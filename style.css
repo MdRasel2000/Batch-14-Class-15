@@ -1,0 +1,161 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+
+    background-image: url(image/pexels-photo-619418.jpeg);
+    height: 300px;
+    color: rgb(255, 255, 249);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.4;
+    
+}
+
+.project {
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+
+}
+
+.project-item {
+    float: left;
+    height: 200px;
+    width: 32.8%;
+    background-image: url(image/windows-7-1366x768-technology-windows-hd-art-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    margin: 3px;
+    overflow: hidden;
+
+}
+
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: #0b0a0a;
+
+}
+
+.footer-item {
+    width: 33.33%;
+    float: left;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: rgb(213, 213, 11);
+    margin-top: 2px;
+}
+
+.copy {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1123px) {
+
+    .hero {
+        color: rgb(200, 255, 0);
+    }
+
+}
+
+@media screen and (max-width:1123px) {
+
+    .project-item {
+
+        height: 200px;
+        width: 32.7%;
+        color: black;
+
+
+    }
+
+}
+
+@media screen and (max-width:945px) {
+
+    .project-item {
+
+        height: 200px;
+        width: 32%;
+        overflow: hidden;
+
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .project-item {
+
+        height: 200px;
+        width: 48%;
+
+    }
+
+}
+
+
+@media screen and (max-width:380px) {
+
+    .project-item {
+
+        height: 200px;
+        width: 99.9%;
+
+    }
+
+    .hero {
+
+        height: 150px;
+
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .footer-item {
+        font-size: 12px;
+        overflow: hidden;
+
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .footer-item {
+        font-size: 10px;
+
+
+    }
+}
+
+
+@media screen and (max-width:480px) {
+
+    .footer-item {
+        width: 100%;
+        text-align: center;
+
+    }
+}
